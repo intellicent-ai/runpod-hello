@@ -7,4 +7,4 @@ RUN pip install -r requirements.txt
 
 ENV RUNPOD_HANDLER=handler.handler
 
-CMD ["python3", "-m", "runpod"]
+CMD ["python3", "handler.py"]
